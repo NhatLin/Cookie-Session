@@ -1,0 +1,23 @@
+<!-- HTML -->
+<div class="login-container">
+    <h3>Login System</h3>
+    <table>
+        <tr>
+            <td>User Name:</td>
+            <td> 
+                <input type="text" class="form-control" name="username" id="username" [(ngModel)]="login.username"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td> 
+                <input type="password" class="form-control" name="password" id="password" [(ngModel)]="login.password"/> 
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button class="login-button" (click)="getFashion()">Login</button>
+            </td>
+        </tr>
+    </table>
+</div>
